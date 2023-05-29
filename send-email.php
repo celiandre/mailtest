@@ -24,8 +24,8 @@ $mail->SMTPSecure="tls";
 
 $mail->Host="smtp.gmail.com";
 $mail->Port=587;
-$mail->Username = "harmoniedesete@gmail.com";
-$mail->Password = "@jmsml13A2012!";
+$mail->Username = "tonadressemail@gmail.com";
+$mail->Password = "tonmotdepasse";
 
 $mail->setFrom($email,$name);
 $mail->addAddress("celiagrosjean@hotmail.com","Test");
